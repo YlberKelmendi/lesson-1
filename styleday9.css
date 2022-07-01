@@ -1,0 +1,67 @@
+/*html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #f5a3a1;
+    font-size: 30%;
+}
+
+p{
+    color: red;
+    font-size:  1.375em; ;}
+#lastP{
+    color: blue;
+}
+#firstP, #title {
+    color: blue;
+}
+.greenP{
+    color: green;
+}
+
+.yellowP{
+    color: yellow;
+}
+.greenP, .yellowP{
+    font-size: 30px;
+}
+
+ p{
+    color: red;
+}
+#SpecialDiv{
+    border: 2px solid blue ;
+}
+#SpecialDiv p{
+    color: blue;
+}
+#SpecialDiv div pre{
+    color: green;
+}
+#SpecialDiv p.middle {
+    color: pink;
+} 
+*/
+/*#SpecialCard{
+    width: 300px;
+    border: 1px solid darkblue;
+    padding: 10px;
+/*border-radius: 15px;
+border-top-left-radius: 0px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 20px; 
+
+border-radius: 5px 10px 15px 20px;
+} */
+#Ylber{
+    width: 200px;
+    height: 200px;
+border: 1px solid red;
+border-radius: 1px ;
+border-top-left-radius: 100px;
+border-top-right-radius: 100px;
+border-bottom-right-radius: 100px;
+border-bottom-left-radius: 100px;
+}

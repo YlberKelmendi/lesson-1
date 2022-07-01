@@ -1,0 +1,6 @@
+#SpecialBox {
+    border: 1px solid darkblue;
+    width: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+}

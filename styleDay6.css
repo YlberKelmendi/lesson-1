@@ -1,0 +1,8 @@
+ul {
+    
+    list-style-image: url(/132289_search_icon.png);
+}
+
+ol {
+    list-style-type: lower-alpha;
+}

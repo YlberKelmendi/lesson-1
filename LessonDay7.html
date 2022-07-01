@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/StyleDay7.css">
+</head>
+<body>
+<table border="1">
+    <tr>
+    <th>Emri</th>
+    <th>Mbiemri</th>
+    <th>Mosha</th>
+    </tr>
+    <tr>
+        <td>Omer</td>
+        <td>Bala</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Ersi</td>
+        <td>Sheqerolli</td>
+        <td>16</td>
+    </tr>
+</table>
+
+<form action="/form-submission.js" method="POST">
+    <!--Elementet e formes-->
+    <label for="email-input">email</label>
+<input type="text"/>
+<label>Passwordi</label> <br/>
+<input type="password"/>
+<label>Birthday</label> <br/>
+<input type="date"/>
+<label>Emaili</label>
+<input type="email" id="email-input" />
+<button>Submit form</button><br />
+<label>Select Fruits:</label>
+<input type="checkbox" value="Apple">Apple</input>
+<input type="checkbox" value="Orange">Orange</input>
+<input type="checkbox" value="Kiwi">Kiwi</input>
+<input type="number"/>
+<label>Gender</label>
+<input type="radio">M</input>
+<input type="radio">F</input>
+
+<textarea rows="3" cols="40"></textarea>
+<select>
+    <option>Albania</option>
+    <option>Germany</option>
+    <option selected>Kosovo</option>
+</select>
+<button type="submit">Submit</button>
+<button type="button" onclick="alert('Thank you for subbmiting form')">Upload picture</button>
+
+</form>
+</body>
+</html>
