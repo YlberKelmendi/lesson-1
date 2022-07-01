@@ -1,6 +1,14 @@
-#SpecialBox {
-    border: 1px solid darkblue;
-    width: 200px;
-    padding: 30px;
-    box-sizing: border-box;
+body {
+    background-image: url(/Background-image.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
 }
+/*#SpecialDiv {
+    width: 300px;
+    height: 150px;
+    background-color: #fa1244;
+
+
+}*/
