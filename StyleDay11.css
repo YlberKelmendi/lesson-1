@@ -1,0 +1,13 @@
+div {
+    width: 100%;
+    padding: 100px;
+   /*height: 200vh;*/
+    /*background: lightblue;*/
+    background-size: 50px;
+   background-image: url(/Background-image.jpg);
+   /*background-repeat: no-repeat;*/
+   /* background-attachment: fixed; */
+    background-clip: padding-box;
+    background-origin: content-box;
+    border: 10px dashed red;
+}
