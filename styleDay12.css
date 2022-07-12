@@ -10,7 +10,7 @@
     float: right;
     clear: both;
 }*/
-a:link {
+/*a:link {
     color: blueviolet;
 }
 a:hover {
@@ -23,4 +23,33 @@ a:active {
 }
 a:visited {
 color: red;
+}*/
+button {
+  width: 100px;
+  border-color: blue;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+/*#Buton {
+  background-color: white;
+  text-decoration: black;
+  border-radius: 5px;
+}*/
+#Butoni3 {
+  width: 100px;
+  border-color: green;
+  background-color: transparent;
+  color: green;
+  border-radius: 30px;
+}
+#Butoni3:hover {
+    background-color: green;
+  color: white;
+  border-color: green;
 }

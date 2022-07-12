@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+    height: 100px;
+}
+#Div1 {
+    border: 1px solid red;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+#Div2 {
+    border: 1px solid blue;
+    background-color: blue;
+    position:fixed;
+    top:0;
+    left:0;
+}
+#Div3 {
+    border: 1px solid green;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+#Div4 {
+    border: 1px solid purple;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
