@@ -1,0 +1,24 @@
+#Divi1{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 3px red;
+}
+#Divi2{
+    border: 1px solid green;
+    width: 200px;
+    height: 200px;
+    box-shadow: -3px 3px 5px green;
+    position: absolute;
+    top:212px;
+    left:212px;
+}
+#Divi3{
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+    box-shadow: -3px 3px 5px 5px blue;
+    position: absolute;
+    top:414px;
+    left:414px;
+}
