@@ -1,0 +1,41 @@
+#container{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+.rect{
+    background-color: gray;
+    height: 300px;}
+    
+
+@media only screen and (max-width:600px){
+#div1{
+        width: 100%;
+    }
+    #div2 #div3 #div4{
+        display: none;
+    }
+}
+@media only screen and (min-width:600px){
+    #div1{
+        width: 45%;
+
+    }
+    #div2{
+        width: 45%;
+        display: block;
+    }
+    #div3 , #div4{
+        display: none;
+    }
+}
+@media only screen and (min-width:1000px){
+    #div1 , #div2 , #div3 , #div4{
+        width: 23%;
+    }
+    #div3 , #div4 {
+        display: block;
+    }
+}
+
+

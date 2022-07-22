@@ -1,0 +1,21 @@
+#div1{
+    border: 1px solid gray;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.dropdown{
+    display: none;
+}
+.item:hover .dropdown{
+    display: block;
+    
+}
+.rect{
+    
+}
