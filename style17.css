@@ -1,0 +1,31 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+   
+}
+.scroll {
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-color: pink;
+    width: 15px;
+    height:700px;
+    margin: 0 auto;
+    
+}
+.special {
+    border: 1px solid red;
+    background-color: red;
+    width: 4px;
+    height: 250px;
+    
+
+
+}
+.special:hover {
+    transform: translateY(50%);
+    transition-delay: 1s;
+    transition-duration: 1s;
+}

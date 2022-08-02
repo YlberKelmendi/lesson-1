@@ -1,0 +1,44 @@
+/*p {
+    text-align: center;
+}
+.text{
+    color: red;
+}
+#parag{
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: calc(50% - 15px);
+    background-color: lightblue;
+    height: 300px;
+    margin-bottom: 30px;
+}*/
+.special {
+    background-color: darkcyan;
+    height: 200px;
+    width:300px;
+    margin: 100px;
+}
+/*.special:hover {
+    /*transform: rotate(45deg);
+    transform: scale(1.5);
+    transform: skew(20deg , 20deg);
+ transform: matrix(scaleX(1.3) , scaleY(1.3) ,   );
+
+}*/
+.special:hover {
+transform: rotate(45deg);
+transition-delay: 1s;
+transition-duration: 3s;
+transition-timing-function: ease;
+transition: 2s linear 3s;
+}
+
+
+
